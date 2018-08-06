@@ -61,3 +61,9 @@ colorscheme desert
 highlight SignColumn guibg=#272822
 let g:rehash256 = 1
 let g:molokai_original=1
+
+" indent setting 
+autocmd Filetype html setlocal ts=2 sw=2 expandtab
+autocmd Filetype xml setlocal ts=2 sw=2 expandtab
+autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab

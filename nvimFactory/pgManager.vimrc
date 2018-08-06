@@ -11,7 +11,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'scrooloose/nerdtree', {'on': 'NerdTreeToggle'}
 
 " Syntax check 
-Plug 'scrooloose/syntastic'
+" Plug 'scrooloose/syntastic'
 
 " Formatters manger
 Plug 'Chiel92/vim-autoformat'
@@ -21,7 +21,9 @@ Plug 'google/yapf', {'for': 'python'}
 " Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 
 " Syntax packages
-Plug 'mustache/vim-mustache-handlebars', {'for': 'mustache'}
+Plug 'mustache/vim-mustache-handlebars' ", {'for': 'mustache'}
+Plug 'pangloss/vim-javascript' ", {'for': 'javascript'}
+Plug 'mxw/vim-jsx'
 " Autocomplete packages
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 Plug 'Shougo/neoinclude.vim'
