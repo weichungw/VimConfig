@@ -12,7 +12,7 @@ Plug 'vim-airline/vim-airline-themes'
 
 Plug 'jiangmiao/auto-pairs'
 Plug 'terryma/vim-multiple-cursors'
-Plug 'scrooloose/nerdtree', {'on': 'NerdTreeToggle'}
+Plug 'scrooloose/nerdtree', {'on': 'NERDTreeToggle'}
 
 " Syntax check 
 " Plug 'scrooloose/syntastic'
